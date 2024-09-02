@@ -1,0 +1,7 @@
+# Ignorar a pasta obj em qualquer diretório
+obj/
+
+# Ignorar arquivos de log
+*.log
+
+*.generated.sln
