@@ -4,4 +4,4 @@ obj/
 # Ignorar arquivos de log
 *.log
 
-*.generated.sln
+*.sln
