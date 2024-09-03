@@ -77,8 +77,8 @@ namespace CrudVeiculos.Controllers
             return CreatedAtAction(nameof(GetById), new { id = veiculo.IdVeiculo }, veiculo);
         }
 
-        // PUT: api/Veiculos/5
-        [HttpPut("{id}")]
+        // Patch: api/Veiculos/5
+        [HttpPatch("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] VeiculoUpdateDTO veiculoDTO)
         {
             var veiculo = await _context.Veiculos.FindAsync(id);
